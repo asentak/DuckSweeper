@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>DuckSweeper</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="app.js"></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body class="background">
+		<div class="rules">
+			<ol>How to Play:
+			<li>Follow Minesweeper Rules</li>
+			<li>Left click if no duck </li>
+			<li>Right click to flag duck</li>
+			<li>Press restart to play again </li>
+		</ol>
+		</div>
+
+		<div class="container">
+			<h1 class="heading">DuckSweeper</h1>
+			<div class="grid"></div>
+			<div>Flags left: <span id="flags-left"></span></div>
+			<div id="result"></div>
+			<button class = "restartButton" onclick="window.location.reload()">Restart</button>
+		</div>
+	</body>
+</html>

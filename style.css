@@ -1,0 +1,102 @@
+.background{
+	background-color: #36454F;
+}
+
+.rules{
+	position: absolute;
+	list-style: none;
+	color:#FFFF8F;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+	margin-left: 5px;
+	margin-top: 200px;
+}
+
+.restartButton{
+	background-color:#FFFF8F;
+	color:#36454F;
+	height: 50px;
+	width:200px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bolder;
+	font-size: 25px;
+	padding:8px;
+}
+
+.heading{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 57px;
+	padding:8px;
+	color:#FFFF8F;
+}
+
+.container {
+	width: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid {
+	height: 400px;
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #dcd6bc;
+	border: 10px solid #dcd6bc;
+	align-items: center;
+	justify-self: center;
+	margin:auto;
+}
+
+div {
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+
+}
+.valid {
+	height: 40px;
+	width: 40px;
+	border: 5px solid;
+	border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+	box-sizing: border-box;
+}
+
+.checked {
+	height: 40px;
+	width: 40px;
+	border: 2px solid;
+	background-color: #cecab7;
+	border-color: #9c998d;
+	box-sizing: border-box;
+}
+
+.duck {
+	height: 40px;
+	width: 40px;
+	border: 5px solid;
+	border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+	box-sizing: border-box;
+}
+
+.one {
+	color: #f13ca3;
+}
+
+.two {
+	color: #16a20a;
+}
+
+.three {
+	color: #1743f2;
+}
+
+.four {
+	color: #ff8b10;
+}
+
+#result {
+	margin-top: 5px;
+	color: #fc0505;
+}
